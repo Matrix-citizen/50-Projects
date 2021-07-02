@@ -5,4 +5,4 @@
 
 |  #  | Project                                                                                                                     | Live Demo                                                                         |
 | :-: | --------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------- |
-| 01  | [Expanding Cards](https://github.com/bradtraversy/50projects50days/tree/master/expanding-cards)                             | [Live Demo](https://50projects50days.com/projects/expanding-cards/)               |
+| 01  | [Expanding Cards](https://github.com/Matrix-citizen/50-Projects/tree/master/1%20-%20Expanding%20Cards)                             | [Live Demo](https://50projects50days.com/projects/expanding-cards/)               |
