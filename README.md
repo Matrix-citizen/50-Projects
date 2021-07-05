@@ -7,8 +7,8 @@
 | 03  | [Rotating Navigation Animation](https://github.com/Matrix-citizen/50-Projects/tree/master/3%20-%20Rotating%20Navigation%20Animation) | [Demo](https://matrix-citizen.online/3%20-%20Rotating%20Navigation%20Animation/)  |
 | 04  | [Hidden Search Widget](https://github.com/Matrix-citizen/50-Projects/tree/master/4%20-%20Hidden%20Search%20Widget)                   | [Demo](https://matrix-citizen.online/4%20-%20Hidden%20Search%20Widget/)           |
 | 05  | [Blurry Loading](https://github.com/Matrix-citizen/50-Projects/tree/master/5%20-%20Blurry%20Loading)                                 | [Demo](https://matrix-citizen.online/5%20-%20Blurry%20Loading/)                   |
-
-
+| 06  | [Scroll Animation](https://github.com/Matrix-citizen/50-Projects/tree/master/6%20-%20Scroll%20Animation)                             | [Demo](https://matrix-citizen.online/6%20-%20Scroll%20Animation/)                 | 
+ 
 
 
 
