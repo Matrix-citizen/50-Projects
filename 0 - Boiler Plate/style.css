@@ -1,10 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-* {
-  box-sizing: border-box;
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 100%; /* 1rem = 16px */
 }
 
 body {
+  box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
   display: flex;
   flex-direction: column;
