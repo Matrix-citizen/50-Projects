@@ -10,6 +10,6 @@
 | 06  | [Scroll Animation](https://github.com/Matrix-citizen/50-Projects/tree/master/6%20-%20Scroll%20Animation)                             | [Demo](https://matrix-citizen.online/6%20-%20Scroll%20Animation/)                 | 
 | 07  | [Split Landing Page](https://github.com/Matrix-citizen/50-Projects/tree/master/7%20-%20Split%20Landing%20Page)                       | [Demo](https://matrix-citizen.online/7%20-%20Split%20Landing%20Page/)             | 
 | 08  | [Form Wave](https://github.com/Matrix-citizen/50-Projects/tree/master/8%20-%20Form%20Wave)                                           | [Demo](https://matrix-citizen.online/8%20-%20Form%20Wave/)                        |
-  
+| 09  | [Sound Board](https://github.com/Matrix-citizen/50-Projects/tree/master/9%20-%20Sound%20Board)                                       | [Demo](https://matrix-citizen.online/9%20-%20Sound%20Board/)                      |  
 
 
