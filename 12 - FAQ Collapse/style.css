@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%; /* 1rem = 10px */
+}
+
+body {
+  font-family: "Muli", sans-serif;
+  background-color: #f0f0f0;
+  box-sizing: border-box;
+  font-size: 1.6rem;
+}
+
+h1 {
+  margin: 5rem 0 3rem;
+  text-align: center;
+}
+
+.faq-container {
+  max-width: 60rem;
+  margin: 0 auto;
+}
+
+.faq {
+  background-color: transparent;
+  border: 0.1rem solid #9fa4a8;
+  border-radius: 1rem;
+  margin: 2rem 0;
+  padding: 3rem;
+  position: relative;
+  overflow: hidden;
+  transition: 0.3s ease;
+}
+
+.faq.active {
+  background-color: white;
+  box-shadow: 0 0.3rem 0.6rem rgba(0, 0, 0, 0.1),
+    0 0.3rem 0.6rem rgba(0, 0, 0, 0.1);
+}
+
+.faq.active::before,
+.faq.active::after {
+  content: '\f075';
+  font-family: 'Font Awesome 5 Free';
+  color: #2ecc71;
+  font-size: 7rem;
+  position: absolute;
+  opacity: 0.2;
+  top: 2rem;
+  left: 2rem;
+  z-index: 0;
+}
+
+.faq.active::before {
+  color: #3498db;
+  top: -1rem;
+  left: -3rem;
+  transform: rotateY(180deg);
+}
+
+.faq-title {
+  margin: 0 3.5rem 0 0;
+}
+
+.faq-text {
+  display: none;
+  margin: 3rem 0 0;
+}
+
+.faq.active .faq-text {
+  display: block;
+}
