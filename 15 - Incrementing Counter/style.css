@@ -28,11 +28,11 @@ body {
 
 .counter-container {
   text-align: center;
-  margin: 3rem 5rem; 
+  margin: 3rem 4.5rem; 
 }
 
 .counter {
-  font-size: 6rem;
+  font-size: 5rem;
   margin-top: 1rem;
 }
 
