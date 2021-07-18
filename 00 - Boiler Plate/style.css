@@ -20,6 +20,7 @@ body {
   justify-content: center;
   height: 100vh;
   overflow: hidden;
+  margin: 0;
   box-sizing: border-box;
   font-size: 1.6rem;
 }
