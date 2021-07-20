@@ -19,7 +19,7 @@ body {
   font-size: 1.6rem;
 }
 
-slider-container {
+.slider-container {
   position: relative;
   overflow: hidden;
   width: 100vw;
@@ -32,6 +32,7 @@ slider-container {
   position: absolute;
   top: 0;
   left: 0;
+  transition: transform .5s ease-in-out;
 }
 
 .left-slide > div {
@@ -56,6 +57,7 @@ slider-container {
   top: 0;
   left: 35%;
   width: 65%;
+  transition: transform .5s ease-in-out;
 }
 
 .right-slide > div {
