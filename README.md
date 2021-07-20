@@ -26,5 +26,5 @@
 | 22  | [Drawing App](https://github.com/Matrix-citizen/50-Projects/tree/master/22%20-%20Drawing%20App)                                       | [Demo](https://matrix-citizen.online/50%20Projects%20of%20HTML%2C%20CSS%2C%20and%20JavaScript/22%20-%20Drawing%20App/)                      |
 | 23  | [Kinetic Loader](https://github.com/Matrix-citizen/50-Projects/tree/master/23%20-%20Kinetic%20CSS%20Loader)                           | [Demo](https://matrix-citizen.online/50%20Projects%20of%20HTML%2C%20CSS%2C%20and%20JavaScript/23%20-%20Kinetic%20CSS%20Loader/)             | 
 | 24  | [Content Placeholder](https://github.com/Matrix-citizen/50-Projects/tree/master/24%20-%20Content%20Placeholder)                       | [Demo](https://matrix-citizen.online/50%20Projects%20of%20HTML%2C%20CSS%2C%20and%20JavaScript/24%20-%20Content%20Placeholder/)              |
-
+| 25  | [Sticky Navbar](https://github.com/Matrix-citizen/50-Projects/tree/master/25%20-%20Sticky%20Navbar)                                   | [Demo](https://matrix-citizen.online/50%20Projects%20of%20HTML%2C%20CSS%2C%20and%20JavaScript/25%20-%20Sticky%20Navbar/)                    |
 
