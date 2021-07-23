@@ -28,3 +28,6 @@
 | 24  | [Content Placeholder](https://github.com/Matrix-citizen/50-Projects/tree/master/24%20-%20Content%20Placeholder)                       | [Demo](https://matrix-citizen.online/50%20Projects%20of%20HTML%2C%20CSS%2C%20and%20JavaScript/24%20-%20Content%20Placeholder/)              |
 | 25  | [Sticky Navbar](https://github.com/Matrix-citizen/50-Projects/tree/master/25%20-%20Sticky%20Navbar)                                   | [Demo](https://matrix-citizen.online/50%20Projects%20of%20HTML%2C%20CSS%2C%20and%20JavaScript/25%20-%20Sticky%20Navbar/)                    |
 | 26  | [Double Vertical Slider](https://github.com/Matrix-citizen/50-Projects/tree/master/26%20-%20Double%20Vertical%20Slider)               | [Demo](https://matrix-citizen.online/50%20Projects%20of%20HTML%2C%20CSS%2C%20and%20JavaScript/26%20-%20Double%20Vertical%20Slider/)         |
+| 27  | [Toast Notification](https://github.com/Matrix-citizen/50-Projects/tree/master/27%20-%20Toast%20Notification)                         | [Demo](https://matrix-citizen.online/50%20Projects%20of%20HTML%2C%20CSS%2C%20and%20JavaScript/27%20-%20Toast%20Notification/)               |
+  
+
