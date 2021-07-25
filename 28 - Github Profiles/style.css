@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap");
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%; /* 1rem = 10px */
+}
+
+body {
+  background-color: #2a2a72;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 1.6rem;
+}
+
+.user-form {
+  width: 100%;
+  max-width: 70rem;
+}
+
+.user-form input {
+  width: 100%;
+  display: block;
+  background-color: #4c2885;
+  border: none;
+  border-radius: 1rem;
+  color: #fff;
+  padding: 1.6rem;
+  margin-bottom: 3.2rem;
+  font-family: inherit;
+  font-size: 1.6rem;
+  box-shadow: 0 0.5rem 1rem rgba(154, 160, 185, 0.05),
+    0 1.5rem 4rem rgba(0, 0, 0, 0.1);
+}
+
+.user-form input::placeholder {
+  color: #bbb;
+}
+
+.user-form input:focus {
+  outline: none;
+}
+
+.card {
+  max-width: 80rem;
+  background-color: #4c2885;
+  border-radius: 2rem;
+  box-shadow: 0 0.5rem 1rem rgba(154, 160, 185, 0.05),
+    0 1.5rem 4rem rgba(0, 0, 0, 0.1);
+    display: flex;
+    padding: 4.8rem;
+    margin: 0 2.4rem;
+}
+
+.avatar {
+  border-radius: 50%;
+  border: 1rem solid #2a2a72;
+  height: 15rem;
+  width: 15rem;
+}
+
+.user-info {
+  color: #eee;
+  margin-left: 3.2rem;
+}
+
+.user-info h2 {
+  margin-top: 0;
+}
+
+.user-info p {
+  padding: 1.5rem 0;
+}
+
+.user-info ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  padding-bottom: 1rem;
+  max-width: 40rem;
+}
+
+.user-info ul li {
+  display: flex;
+  align-items: center;
+}
+
+.user-info ul li strong {
+  font-size: 1.44rem;
+  margin-left: 0.8rem;
+}
+
+.repo {
+  text-decoration: none;
+  color: #fff;
+  background-color: #212a72;
+  font-size: 1.1rem;
+  padding: 0.4rem 0.8rem;
+  margin-right: 0.8rem;
+  margin-bottom: 0.8rem;
+  display: inline-block;
+}
+
+@media (max-width: 500px) {
+  .card {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .user-form {
+    max-width: 40rem;
+  }
+}
