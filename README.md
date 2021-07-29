@@ -33,3 +33,5 @@
 | 29  | [Double Click Heart](https://github.com/Matrix-citizen/50-Projects/tree/master/29%20-%20Double%20Click%20Heart)                       | [Demo](https://matrix-citizen.online/50%20Projects%20of%20HTML%2C%20CSS%2C%20and%20JavaScript/29%20-%20Double%20Heart%20Click/)             |
 | 30  | [Auto Text Effect](https://github.com/Matrix-citizen/50-Projects/tree/master/30%20-%20Auto%20Text%20Effect)                           | [Demo](https://matrix-citizen.online/50%20Projects%20of%20HTML%2C%20CSS%2C%20and%20JavaScript/30%20-%20Auto%20Text%20Effect/)               |
 | 31  | [Password Generator](https://github.com/Matrix-citizen/50-Projects/tree/master/31%20-%20Password%20Generator)                         | [Demo](https://matrix-citizen.online/50%20Projects%20of%20HTML%2C%20CSS%2C%20and%20JavaScript/31%20-%20Password%20Generator/)               |
+|  32 | [Good Cheap Fast](https://github.com/Matrix-citizen/50-Projects/tree/master/32%20-%20Good%2C%20Cheap%2C%20Fast%20Checkboxes)          | [Demo](https://matrix-citizen.online/50%20Projects%20of%20HTML%2C%20CSS%2C%20and%20JavaScript/32%20-%20Good%2C%20Cheap%2C%20Fast%20Checker/)|
+
