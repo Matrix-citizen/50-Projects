@@ -25,7 +25,8 @@ body {
   font-size: 1.6rem;
 }
 
-.toggle-container {
+.toggle-container
+ {
   display: flex;
   align-items: center;
   margin: 1rem 0;
