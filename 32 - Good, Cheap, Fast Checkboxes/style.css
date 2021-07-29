@@ -24,3 +24,41 @@ body {
   box-sizing: border-box;
   font-size: 1.6rem;
 }
+
+.toggle-container {
+  display: flex;
+  align-items: center;
+  margin: 1rem 0;
+  width: 20rem;
+}
+
+.toggle {
+  visibility: hidden;
+}
+
+.label {
+  position: relative;
+  background-color: #d0d0d0;
+  border-radius: 5rem;
+  cursor: pointer;
+  display: inline-block;
+  margin: 0 1.5rem 0;
+  width: 8rem;
+  height: 4rem;
+}
+
+.toggle:checked + .label {
+  background-color: #8e44ad;
+}
+
+.ball {
+  background: #fff;
+  height: 3.4rem;
+  width: 3.4rem;
+  border-radius: 50%;
+  position: absolute;
+  top: 0.3rem;
+  left: 0.3rem;
+  align-items: center;
+  justify-content: center;
+}
