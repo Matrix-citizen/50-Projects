@@ -60,8 +60,5 @@ function updateLS () {
   localStorage.setItem('notes', JSON.stringify(notes));
 }
 
-// localStorage.setItem('name', 'Rostyslav');
 
-// localStorage.getItem('name');
-// localStorage.removeItem('name');
 
