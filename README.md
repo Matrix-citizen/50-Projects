@@ -37,3 +37,23 @@
 | 33  | [Notes App](https://github.com/Matrix-citizen/50-Projects/tree/master/33%20-%20Notes%20App)                                           | [Demo](https://matrix-citizen.online/50%20Projects%20of%20HTML%2C%20CSS%2C%20and%20JavaScript/33%20-%20Notes%20App/)                        |
 | 34  | [Animated Countdown](https://github.com/Matrix-citizen/50-Projects/tree/master/34%20-%20Animated%20Countdown)                         | [Demo](https://matrix-citizen.online/50%20Projects%20of%20HTML%2C%20CSS%2C%20and%20JavaScript/34%20-%20Animated%20Countdown/)               |
 | 35  | [Image Carousel](https://github.com/Matrix-citizen/50-Projects/tree/master/35%20-%20%20Image%20Carousel)                              | [Demo](https://matrix-citizen.online/50%20Projects%20of%20HTML%2C%20CSS%2C%20and%20JavaScript/35%20-%20Image%20Carousel/)                   |
+| 36  | [Hoverboard](https://github.com/Matrix-citizen/50-Projects/tree/master/36%20-%20Hoverboard)                                           | [Demo](https://matrix-citizen.online/50%20Projects%20of%20HTML%2C%20CSS%2C%20and%20JavaScript/36%20-%20Hoverboard/)                         |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
