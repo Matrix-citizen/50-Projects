@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%; /* This defines what 1rem is: 1rem = 10px */
+}
+
+body {
+  background-color: #fafafa;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 1.6rem;
+}
+
+.magic {
+  background-color: #f9ca24;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  border: 0;
+  border-radius: 0.3rem;
+  font-size: 1.6rem;
+  padding: 1.2rem 2rem;
+  cursor: pointer;
+  position: fixed;
+  top: 2rem;
+  letter-spacing: 0.1rem;
+  box-shadow: 0 0.3rem rgba(249, 202, 36, 0.5);
+  z-index: 100;
+}
+
+.magic:active {
+  box-shadow: none;
+  transform: translateY(0.2rem);
+}
+
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 50rem;
+  width: 50rem;
+  position: relative;
+  transition: 400ms ease;
+}
+
+.boxes.big {
+  width: 60rem;
+  height: 60rem;
+}
+
+.boxes.big .box {
+  transform: rotateZ(360deg);
+}
+
+.box {
+  background-image: url('https://media.giphy.com/media/EZqwsBSPlvSda/giphy.gif');
+  background-repeat: no-repeat;
+  background-size: 50rem 50rem;
+  position: relative;
+  height: 12.5rem;
+  width: 12.5rem;
+  transition: 500ms ease;
+}
+
+.box::after {
+  content: '';
+  background-color: #f6e58d;
+  position: absolute;
+  top: 0.8rem;
+  right: -1.5rem;
+  height: 100%;
+  width: 1.5rem;
+  transform: skewY(45deg);
+}
+
+.box::before {
+  content: '';
+  background-color: #f9ca24;
+  position: absolute;
+  bottom: -1.5rem;
+  left: 0.8rem;
+  height: 1.5rem;
+  width: 100%;
+  transform: skewX(45deg);
+}
