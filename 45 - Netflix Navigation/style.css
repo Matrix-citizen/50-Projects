@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%; /* This defines what 1rem is: 1rem = 10px */
+}
+
+body {
+  font-family: 'Muli', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  
+  box-sizing: border-box;
+  font-size: 1.6rem;
+}
+
+.text {
+  text-transform: uppercase;
+}
+
+.logo {
+  width: 15rem;
+}
+
+.nav-btn {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 2rem;
+}
+
+.open-btn {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  transform: translate(-100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+.nav.visible {
+  transform: translateX(0);
+}
+
+.nav-black {
+  background-color: rgb(34, 31, 31);
+  width: 60%;
+  max-width: 48rem;
+  min-width: 32rem;
+}
+
+.nav-red {
+  background-color: rgb(229, 9, 20);
+  width: 95%;
+}
+
+.nav-white {
+  background-color: #fff;
+  width: 95%;
+  padding: 4rem;
+  position: relative;
+}
+
+.close-btn {
+  opacity: 0.3;
+  position: absolute;
+  top: 4rem;
+  right: 3rem;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.list li {
+  margin: 2rem 0;
+}
+
+.list li a {
+  color: rgb(34, 31, 31);
+  font-size: 1.4rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.list ul {
+  list-style-type: none;
+  padding-left: 2rem;
+}
