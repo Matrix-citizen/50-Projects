@@ -45,6 +45,7 @@
 | 42  | [Live User Filter](https://github.com/Matrix-citizen/50-Projects/tree/master/42%20-%20Live%20User%20Filter)                           | [Demo](https://matrix-citizen.online/50%20Projects%20of%20HTML%2C%20CSS%2C%20and%20JavaScript/42%20-%20Live%20User%20Filter/)               |
 | 43  | [Feedback Ui Design](https://github.com/Matrix-citizen/50-Projects/tree/master/43%20-%20Feedback%20UI%20Design)                       | [Demo](https://matrix-citizen.online/50%20Projects%20of%20HTML%2C%20CSS%2C%20and%20JavaScript/43%20-%20Feedback%20UI%20Design/)             |
 | 44  | [Custom Range Slider](https://github.com/Matrix-citizen/50-Projects/tree/master/44%20-%20Custom%20Range%20Slider)                     | [Demo](https://matrix-citizen.online/50%20Projects%20of%20HTML%2C%20CSS%2C%20and%20JavaScript/44%20-%20Custom%20Range%20Slider/)            |
+| 45  | [Netflix Mobile Navigation](https://github.com/Matrix-citizen/50-Projects/tree/master/45%20-%20Netflix%20Navigation)                  | [Demo](https://matrix-citizen.online/50%20Projects%20of%20HTML%2C%20CSS%2C%20and%20JavaScript/45%20-%20Netflix%20Navigation/)               |
 | 48  | [Random Image Feed](https://github.com/Matrix-citizen/50-Projects/tree/master/48%20-%20Random%20Image%20Feed)                         | [Demo](https://matrix-citizen.online/50%20Projects%20of%20HTML%2C%20CSS%2C%20and%20JavaScript/48%20-%20Random%20Image%20Feed/)              |
 
 
