@@ -88,7 +88,7 @@ body {
   background-color: #fff;
   height: 0.4rem;
   width: 100%;
-  animation: grow 10s linear infinite;
+  animation: grow 7s linear infinite;
   transform-origin: left;
 }
 
