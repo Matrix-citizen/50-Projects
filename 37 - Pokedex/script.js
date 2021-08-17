@@ -1,5 +1,5 @@
 const poke_container = document.getElementById("poke-container");
-const pokemon_count = 150;
+const pokemon_count = 50;
 const colors = {
   fire: "#FDDFDF",
   grass: "#DEFDE0",
@@ -17,33 +17,45 @@ const colors = {
   normal: "#F5F5F5",
 };
 
+const main_types = Object.keys(colors);
+
 const fetchPokemons = async () => {
   for (let i = 1; i <= pokemon_count; i++) {
-    await getPokemon(i)
+    await getPokemon(i);
   }
-}
+};
 
 const getPokemon = async (id) => {
   const url = `https://pokeapi.co/api/v2/pokemon/${id}`;
   const res = await fetch(url);
   const data = await res.json();
-  console.log(data);
-}
+  createPokemonCard(data);
+};
+
+const createPokemonCard = (pokemon) => {
+  const pokemonEl = document.createElement("div");
+  pokemonEl.classList.add("pokemon");
+
+  const poke_types = pokemon.types.map(type => type.type.name);
+  const type = main_types.find(type => poke_types.indexOf(type) > -1);
+  const color = colors[type];
+
+  pokemonEl.style.backgroundColor = color;
+  
+  const pokemonInnerHTML = `
+  <div class="img-container">
+    <img src="https://www.imarvintpa.com/pokemon/images/${pokemon.id}.png" alt="">
+  </div>
+  <div class="info">
+    <span class="number">#${pokemon.id}</span>
+    <h3 class="name">${pokemon.name[0].toUpperCase() + pokemon.name.slice(1)}</h3>
+    <small class="type">Type: <span>${type}</span></small>
+  </div>
+  `;
+
+  pokemonEl.innerHTML = pokemonInnerHTML;
+
+  poke_container.appendChild(pokemonEl);
+};
 
 fetchPokemons();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
