@@ -58,6 +58,7 @@ h1 {
   justify-content: center;
   height: 100vh;
   width: 100vw;
+  transition: margin 0.5s ease-out;
 }
 
 .screen.up {
@@ -159,52 +160,3 @@ h1 {
   width: 10rem;
   height: 10rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
